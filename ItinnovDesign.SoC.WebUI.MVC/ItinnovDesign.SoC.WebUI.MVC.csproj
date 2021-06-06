@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItinnovDesign.SoC.Model\ItinnovDesign.SoC.Model.csproj" />
+    <ProjectReference Include="..\ItinnovDesign.SoC.Presentation\ItinnovDesign.SoC.Presentation.csproj" />
+    <ProjectReference Include="..\ItinnovDesign.SoC.Repository\ItinnovDesign.SoC.Repository.csproj" />
+    <ProjectReference Include="..\ItinnovDesign.SoC.Service\ItinnovDesign.SoC.Service.csproj" />
+  </ItemGroup>
+
+</Project>
